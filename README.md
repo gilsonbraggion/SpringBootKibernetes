@@ -13,12 +13,6 @@ Depois de rodar o comando do Kubectl para iniciar o serviço
 
 Rodar o comando minikube tunnel (Assim ele sincroniza o ambiente)
 
-minikube docker-env
-
-eval $(minikube -p minikube docker-env)
-
-docker build . -t forketyfork/hello-world
-
 
 Depois de alterado o código:
 
